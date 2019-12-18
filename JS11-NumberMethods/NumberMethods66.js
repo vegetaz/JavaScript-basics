@@ -12,7 +12,11 @@ For n = 3.32333; print:  false
 
 function run(n) {
     var check = Number.isInteger(n);
-    console.log(check);
+    if (check && n > 0) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 /*
