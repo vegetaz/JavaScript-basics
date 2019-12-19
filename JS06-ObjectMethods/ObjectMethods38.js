@@ -22,7 +22,9 @@ function run() {
         eyeColor: "blue"
     };
     var values = Object.values(person);
-    console.log(values);
+    for (val of obj) {
+        console.log(val);
+    }
 }
 
 /*
