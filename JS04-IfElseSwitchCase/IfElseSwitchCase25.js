@@ -67,3 +67,18 @@ function run(a, b, c, d) {
 /*
 Cố gắng nhớ lại kiến thức if...else
 */
+
+/*
+function run(a, b, c, d) {
+    var sorted_str = "";
+
+    var arr = [a,b,c,d];
+    var sorted = arr.sort(function(x, y) {
+        return y - x;
+    });
+    
+    sorted_str = sorted[0] + ',' + sorted[1] + ',' + sorted[2] + ',' + sorted[3];
+
+    console.log(sorted_str);
+}
+*/
