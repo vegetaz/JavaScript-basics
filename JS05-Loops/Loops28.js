@@ -13,14 +13,14 @@ Vì 8 chia 2 được 4, 4 chia 2 được 2, 2 chia 2 được 1 và 1 không c
 */
 
 function run(n) {
-    var i = 0;
+    let i = 0;
     do {
-        if (i % 2 == 0) {
+        if (n % 2 == 0) {
             i++;
         }
-        i = 0;
+        n /= 2;
     }
-    while (i < n)
+    while (n % 2 == 0)
 
     console.log(i);
 }
