@@ -13,12 +13,12 @@ In ra:
 */
 
 function run(datas) {
-    for (i = 0; i < datas.length; i++) {
-        if (i % 4) {
-            continue;
-        }
+    for (let i of datas) {
         if ((i % 4 == 0) && (i % 3 == 0)) {
             break;
+        }
+        if (i % 4 == 0) {
+            continue;
         }
 
         console.log(datas[i]);
