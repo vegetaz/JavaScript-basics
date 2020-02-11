@@ -10,14 +10,15 @@ n = 10; In ra: 2,4,6,8,10
 
 function run(n) {
     var output = "";
-    var i = 0;
-    while (i < n) {
-        if (i % 2 == 0) {
-            output = output + i;
+    let i = 2;
+    while (i <= n && i % 2 == 0) {
+        if (output == "") {
+            output = 2;
+        } else {
+            output += "," + i;
         }
-        i++;
+        i += 2;
     }
-
     console.log(output);
 }
 
