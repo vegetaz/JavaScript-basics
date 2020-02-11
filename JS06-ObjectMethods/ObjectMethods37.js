@@ -21,7 +21,9 @@ function run() {
         eyeColor: "blue"
     };
     var key = Object.keys(person);
-    console.log(key);
+    for (let p of arr) {
+        console.log(p);
+    }
 }
 
 /*
